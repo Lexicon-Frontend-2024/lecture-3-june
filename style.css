@@ -1,0 +1,20 @@
+:root {
+    --primary-green: #0A846E;
+    --primary-pink: rgb(238, 74, 151);
+    --main-margin: 1rem;
+    --main-padding: 1rem;
+}
+
+h1 {
+    color: var(--primary-green);
+}
+
+article {
+    --secondary-pink: rgb(238, 168, 239);
+    background-color: var(--primary-pink);
+    color: var(--secondary-pink);
+}
+
+h3 {
+    background-color: var(--secondary-pink);
+}
